@@ -1,0 +1,24 @@
+/* assets/style.css - simple clean UI */
+:root { --accent:#0b5ed7; --muted:#666; --bg:#f6f7fb; --card:#ffffff; --danger:#d9534f; }
+*{box-sizing:border-box;font-family:Inter, system-ui, Arial, sans-serif}
+body{margin:0;background:var(--bg);color:#222;}
+.container{max-width:1000px;margin:20px auto;padding:0 16px;}
+.topbar{background:#fff;border-bottom:1px solid #eee;padding:12px 0;box-shadow:0 1px 4px rgba(20,20,40,0.03);}
+.topbar h3{display:inline;margin:0;}
+.topbar nav{float:right;}
+a{color:var(--accent);text-decoration:none}
+.card{background:var(--card);padding:16px;border-radius:8px;margin-bottom:16px;box-shadow:0 6px 18px rgba(0,0,0,0.03);}
+.form-card{width:420px;padding:24px}
+.centered{display:flex;align-items:center;justify-content:center;height:100vh;background:linear-gradient(180deg,#f6f7fb,#eef2fb)}
+input,select,textarea{display:block;width:100%;padding:8px;margin:6px 0 12px;border:1px solid #ddd;border-radius:6px}
+button{background:var(--accent);color:#fff;border:none;padding:8px 12px;border-radius:6px;cursor:pointer}
+button:hover{filter:brightness(.95)}
+.table{width:100%;border-collapse:collapse}
+.table th,.table td{padding:8px;border-bottom:1px solid #f0f0f0;text-align:left}
+.alert{background:#fff3cd;border:1px solid #ffeeba;padding:8px;border-radius:6px;color:#856404}
+.thumb{height:44px;border-radius:6px;object-fit:cover;margin-right:6px}
+.profile-photo{height:120px;width:120px;border-radius:12px;object-fit:cover}
+.signature{height:60px;margin-top:8px}
+.smallsig{height:32px}
+.small{padding:12px}
+.profile-card{text-align:center}
